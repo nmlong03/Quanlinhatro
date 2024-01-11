@@ -1,0 +1,38 @@
+.modal-change-information {
+  background: var(
+    --global-alert-bg,
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    rgba(255, 255, 255, 0.9)
+  );
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-radius: 14px;
+  position: relative;
+  padding: 20px 0px 0px 0px;
+
+  &__btn-close {
+    border-radius: 100px;
+    background: linear-gradient(
+        0deg,
+        rgba(211, 211, 211, 0.2) 0%,
+        rgba(211, 211, 211, 0.2) 100%
+      ),
+      rgba(150, 150, 150, 0.15);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__form {
+    padding: 20px;
+    max-height: 600px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

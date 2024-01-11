@@ -1,0 +1,45 @@
+.modal-confirm {
+  border-radius: 14px;
+  border-radius: 14px;
+  background: var(
+    --global-alert-bg,
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    rgba(255, 255, 255, 0.9)
+  );
+  background-blend-mode: color-dodge, normal;
+  backdrop-filter: blur(40px);
+  padding: 24px;
+  text-align: center;
+  &__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+  }
+  &__description {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__btn-close {
+    border-radius: 100px;
+    background: linear-gradient(
+        0deg,
+        rgba(211, 211, 211, 0.2) 0%,
+        rgba(211, 211, 211, 0.2) 100%
+      ),
+      rgba(150, 150, 150, 0.15);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+}

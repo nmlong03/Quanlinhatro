@@ -1,0 +1,44 @@
+.modal-change-information {
+  background-color: #f7f7f7;
+  backdrop-filter: blur(40px);
+  border-radius: 14px;
+  position: relative;
+  padding: 20px 0px 0px 0px;
+
+  &__btn-close {
+    border-radius: 100px;
+    background: linear-gradient(
+        0deg,
+        rgba(211, 211, 211, 0.2) 0%,
+        rgba(211, 211, 211, 0.2) 100%
+      ),
+      rgba(150, 150, 150, 0.15);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__form {
+    padding: 20px;
+    max-height: 750px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.card {
+  border-radius: 0px;
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+
+.card .v-slide-group__container {
+  background-color: #f7f7f7;
+  padding: 0px;
+}

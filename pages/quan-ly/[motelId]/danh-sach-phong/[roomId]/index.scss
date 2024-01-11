@@ -1,0 +1,41 @@
+.block {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px 2px 6px;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.search-button {
+    border-radius: 100%;
+    padding: 8px 8px;
+}
+
+.small-text {
+    color: #000;
+    /* Body/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    opacity: 50%;
+}
+
+.large-text {
+    color: #000;
+    /* Body/Semi-bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
